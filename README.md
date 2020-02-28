@@ -30,13 +30,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+  .forEach iterates over each item of an array with a callback function that mutates the current array.  
+  .map iterates over each item of an array with a callback function and returns a new array. 
+
 2. What is the difference between a function and a method?
+
+  A function and a method are similar. A method is a function that is a property of an object. 
 
 3. What is closure?
 
+  Closure allows nested components to retain their parent properties. A way of providing inheritance. 
+
 4. Describe the four rules of the 'this' keyword.
 
+  Window/global, implicit binding, explicit binding and new are the four rules of `this`.
+
 5. Why do we need super() in an extended class?
+
+  Super() provides inheritance of all attributes from the parent classes.
 
 ## Project Set up
 
